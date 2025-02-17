@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# OS / IDE
+.DS_Store
+.vscode/

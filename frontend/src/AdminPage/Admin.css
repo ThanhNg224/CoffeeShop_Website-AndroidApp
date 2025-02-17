@@ -1,0 +1,137 @@
+.admin-page {
+    padding: 20px;
+  }
+  
+  .page-views-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .page-views-table th, .page-views-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .page-views-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .delete-button {
+    background-color: #4B2D0B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    align-self: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #fff;
+    color: #4B2D0B;
+    border: 2px solid #4B2D0B;
+}
+  
+
+.add-product-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: goldenrod;
+}
+
+.add-new-item-button {
+  background-color: #8B0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 10px;
+  align-self: center;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.add-new-item-button:hover {
+  background-color: #fff;
+  color: #8B0000;
+  border: 2px solid #8B0000;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
